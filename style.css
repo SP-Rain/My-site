@@ -1,3 +1,13 @@
+/*   
+Theme Name: Rainy site
+Theme URI: 
+Description: Theme for my own site
+Author: Alex Z
+Author URI: http://vk.com/id112221379
+Version: 0.1
+*/
+
+
 html, body {
 	height: 100%;
 }
@@ -31,11 +41,6 @@ body {
 	margin: auto;
 }
 
-nav a {
-	text-decoration: none;
-	color: #9f9e9e;
-}
-
 .navbar {
 	background-color: white;
 	padding: 2px;
@@ -43,9 +48,33 @@ nav a {
 	margin-bottom: 10px;
 }
 
+ul a {
+	background-image: url(img/divider.png);
+	background-repeat: no-repeat;
+	display: block;
+	background-position: right;
+	line-height: 40px;
+	text-decoration: none;
+	font-size: 16pt;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #9f9e9e;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+	height: 40px;
+	margin:0;
+	padding:0;
+}
+
 li {
-display: inline-block;
-padding-right: 5px;
+float: left;
+}
+
+a:hover {
+color: #FFFFFF;
 }
 
 .aboutMe {
