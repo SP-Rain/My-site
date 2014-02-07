@@ -41,12 +41,9 @@ body {
 	margin: auto;
 }
 
-.navbar {
-	background-color: white;
-	padding: 2px;
-	border-radius: 8px;
-	margin-bottom: 10px;
-}
+
+
+
 
 ul a {
 	background-image: url(img/divider.png);
@@ -62,10 +59,13 @@ ul a {
 }
 
 ul {
+	background-color: white;
+	padding: 2px;
+	border-radius: 8px;
+	margin-bottom: 10px;
 	list-style-type: none;
 	text-align: center;
 	height: 40px;
-	margin:0;
 	padding:0;
 }
 
@@ -73,8 +73,9 @@ li {
 float: left;
 }
 
-a:hover {
+ul a:hover {
 color: #FFFFFF;
+text-shadow: 0 0 10px #999999;
 }
 
 .aboutMe {
@@ -89,6 +90,29 @@ img {
 border-radius: 7px;
 border: 3px solid black;
 float: right;
+}
+
+.posts {
+	background-color: white;
+	width: 30%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 8px;
+	padding: 10px;
+}
+
+.posts a {
+	text-decoration: none;
+	color: #006666;
+}
+
+.posts h2 {
+	text-align: center;
+}
+
+.posttext {
+	text-indent: 15px;
+	color: #666666;
 }
 
 .footer {

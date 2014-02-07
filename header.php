@@ -15,13 +15,17 @@
 </div>
 
 <div class="wrapper">
-<div class="navbar">
-		<ul>
-			<li><a href="index.html">SP-Rain</a></li>
-			<li><a href="#">Work</a></li>
-			<li><a style="background-image: none;" href="#">Сontaсts</a></li>
-		</ul>
-</div>
+	<?php
+		$args = array(
+		'menu'				=> 'main menu',
+		'container'			=> 'nav',
+		'container_class'	=> '',
+		'before'			=> '',
+		'after'				=> '',
+		'depth'				=> '0'
+		);
+		wp_nav_menu( $args ); 
+	?> 
 
 <?php wp_head(); ?>
 <!-- <-header-> -->
